@@ -21,6 +21,8 @@ public class BookTicketEntryDto {
 
     private int noOfSeats;
 
+
+
     public BookTicketEntryDto(List<Integer> passengerIds, Integer trainId, Station fromStation, Station toStation,int noOfSeats,Integer bookingPersonId) {
         this.passengerIds = passengerIds;
         this.trainId = trainId;
